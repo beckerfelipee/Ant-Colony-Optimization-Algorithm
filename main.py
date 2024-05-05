@@ -3,6 +3,7 @@ import time  # to skip function
 import os  # To detect Operation System
 import itertools  # create all possible sorts of an list
 from geopy.distance import geodesic  # calculate distances with coordinates
+from tqdm import tqdm  # To create visual loading bars
 import c_data  # Us cities list
 
 #                                   Config
@@ -24,7 +25,6 @@ num_iterations = 30
 alpha_value = 1
 beta_value = 3
 evaporation_rate = 0.1
-
 
 #                                  Basic Functions
 
@@ -66,6 +66,10 @@ def exhaustive_enumeration(cities):
     best_route = (None, float('inf'))
     n_dist = 0
     print("Calculating distances..")
+
+    if not show_ee_routes and not show_ee_distances:
+        all_routes = tqdm(all_routes)  # generate a Loading bar
+
     for route in all_routes:
         distance = 0
         for i in range(len(route) - 1):  # cities distances
@@ -135,7 +139,13 @@ def ant_colony_optimization(cities, n_ants, n_iterations, alpha, beta, evaporati
     # the matrix is two-dimensional to be able to store and access the
     # pheromone values for each edge between each pair of cities.
     print("ACO\nGenerating ants...\nCreating ant´s iterations..")
-    for i in range(n_iterations):  # for each iteration
+
+    if not show_aco_iterations:
+        range_iterations = tqdm(range(n_iterations))  # generate a Loading bar
+    else:
+        range_iterations = range(n_iterations)
+
+    for i in range_iterations:  # for each iteration
         # store the routes built by ants
         routes = []
         # for each ant
