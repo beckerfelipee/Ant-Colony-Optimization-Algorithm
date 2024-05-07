@@ -52,7 +52,7 @@ pip install geopy tqdm
 
 # Usage
 
-### To use this project, follow these steps:
+To use this project, follow these steps:
 
 1. Clone or download this repository to your system.
 2. Navigate to the directory where the project files are located.
@@ -66,10 +66,18 @@ Follow the instructions presented in the terminal to interact with the program.
 
 # Dependencies
 
-### This project requires the following Python libraries:
+This project requires the following Python libraries:
 
 - `geopy`: To calculate distances using geographic coordinates.
 - `tqdm`: To display progress bars during processing.
+
+# FAQ (Frequently Asked Questions)
+
+- **How can I adjust the parameters of the ACO algorithm?**
+  - You can adjust the parameters of the ACO algorithm by editing the global variables in the `main.py` file before running the script.
+
+- **What is the accuracy of the ACO algorithm compared to the optimal solution?**
+  - The accuracy of the ACO algorithm compared to the optimal solution can be calculated and displayed in the terminal during program execution.
 
 # Contribution
 
@@ -83,14 +91,6 @@ Follow the instructions presented in the terminal to interact with the program.
 # License
 
 This project is licensed under the [MIT License](LICENSE).
-
-# FAQ (Frequently Asked Questions)
-
-- **How can I adjust the parameters of the ACO algorithm?**
-  - You can adjust the parameters of the ACO algorithm by editing the global variables in the `main.py` file before running the script.
-
-- **What is the accuracy of the ACO algorithm compared to the optimal solution?**
-  - The accuracy of the ACO algorithm compared to the optimal solution can be calculated and displayed in the terminal during program execution.
 
 # Credits
 
