@@ -29,13 +29,13 @@ According to the study results, the ACO algorithm showed a shorter processing ti
 ### Figure 1 - TSP with 4 cities
 ![image](https://github.com/beckerfelipee/Ant-Colony-Optimization-Algorithm/assets/94445094/9fe72c52-e666-49f7-ad85-ebd5a7e7f155)
 
-### Figure 1 - TSP with 8 cities
+### Figure 2 - TSP with 8 cities
 ![image](https://github.com/beckerfelipee/Ant-Colony-Optimization-Algorithm/assets/94445094/47269acf-9171-408b-be90-4dcc8c5a600d)
 
-### Figure 1 - TSP with 10 cities
+### Figure 3 - TSP with 10 cities
 ![image](https://github.com/beckerfelipee/Ant-Colony-Optimization-Algorithm/assets/94445094/82d87d8f-90de-4dc1-85ca-8399c9808273)
 
-### Figure 1 - TSP with 11 cities
+### Figure 4 - TSP with 11 cities
 ![image](https://github.com/beckerfelipee/Ant-Colony-Optimization-Algorithm/assets/94445094/e9fe4827-bd22-4811-9226-434b70b1510f)
 
 ## Conclusion
