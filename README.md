@@ -13,9 +13,9 @@ This project aims to create and implement the Ant Colony Optimization (ACO) algo
 - Generation of Possible Routes: Generate all possible combinations of routes.
 - Calculation of Distances: Calculate the total distance for each generated route.
 - Identification of the Best Route: Select the route with the shortest total distance.
-### Ant Colony Optimization (ACO) Algorithm
+### Ant Colony Optimization (ACO) Algorithm - [Click here for more details](ACO_Methodology.md)
 - Data Collection: Use the same list of cities used by the EE algorithm.
-- [Creation of Route Construction Function](google.com): Simulate the construction of a route by an ant, using probability calculations based on distance and pheromone level.
+- Creation of Route Construction Function: Simulate the construction of a route by an ant, using probability calculations based on distance and pheromone level.
 - Initialization of Pheromone: Initialize the pheromones on all edges with a small amount.
 - Iteration Execution: Execute a defined number of iterations, where each ant constructs a route.
 - Identification of the Best Route of the Iteration and Pheromone Update: Choose the best route of the iteration and update the pheromones on the edges.
