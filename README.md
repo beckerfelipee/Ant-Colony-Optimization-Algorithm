@@ -1,6 +1,8 @@
 # Ant-Colony-Optimization-Algorithm
 This project aims to create and implement the Ant Colony Optimization (ACO) algorithm to solve the Traveling Salesman Problem (TSP), an NP-hard problem. The TSP involves finding the shortest route that visits all cities in a set and returns to the starting city. As the complexity of the problem grows exponentially with the number of cities, exhaustive search methods become impractical for large-scale problems.
 
+# Project Overview
+
 ## Objectives
 - Implement the ACO algorithm to solve the TSP.
 - Compare the performance of the ACO algorithm with an exhaustive enumeration (EE) algorithm in terms of result accuracy and processing time.
@@ -38,4 +40,64 @@ According to the study results, the ACO algorithm showed a shorter processing ti
 
 ## Conclusion
 The ACO algorithm demonstrated effectiveness in solving the TSP, being able to handle up to 18 cities with relative ease. It is expected that the ACO can handle routes with an even larger number of cities, although adjusting the number of iterations and ants may be necessary to maintain the algorithm's accuracy. The study reinforces the advantage of heuristic algorithms like ACO over exhaustive search in NP-hard problems, especially in terms of processing time.
+
+# Installation
+
+To run this project, you need to have Python installed on your system. You can download and install Python from the official website.
+Additionally, this project uses some external libraries that can be installed via pip. To install all required dependencies, run the following command:
+
+```bash
+pip install geopy tqdm
+```
+
+# Usage
+
+### To use this project, follow these steps:
+
+1. Clone or download this repository to your system.
+2. Navigate to the directory where the project files are located.
+3. Run the Python script `main.py`:
+
+```bash
+python main.py
+```
+
+Follow the instructions presented in the terminal to interact with the program.
+
+# Dependencies
+
+### This project requires the following Python libraries:
+
+- `geopy`: To calculate distances using geographic coordinates.
+- `tqdm`: To display progress bars during processing.
+
+# Contribution
+
+### If you want to contribute to this project, follow these steps:
+1. Fork the repository.
+2. Create a new branch with your feature: `git checkout -b my-feature`.
+3. Commit your changes: `git commit -m 'Add a new feature'`.
+4. Push to the branch: `git push origin my-feature`.
+5. Open a pull request.
+
+# License
+
+This project is licensed under the [MIT License](LICENSE).
+
+# FAQ (Frequently Asked Questions)
+
+- **How can I adjust the parameters of the ACO algorithm?**
+  - You can adjust the parameters of the ACO algorithm by editing the global variables in the `main.py` file before running the script.
+
+- **What is the accuracy of the ACO algorithm compared to the optimal solution?**
+  - The accuracy of the ACO algorithm compared to the optimal solution can be calculated and displayed in the terminal during program execution.
+
+# Credits
+
+This project was developed by [Felipe Becker](https://github.com/beckerfelipee).
+
+# Contact
+
+For more information, contact via email: beckerfelipee@gmail.com.
+
 
