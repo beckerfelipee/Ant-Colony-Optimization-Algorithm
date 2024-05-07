@@ -3,7 +3,7 @@ import time  # to skip function
 import os  # To detect Operation System
 import itertools  # create all possible sorts of an list
 from geopy.distance import geodesic  # calculate distances with coordinates
-from tqdm import tqdm  # To create visual loading bars
+from tqdm import tqdm  # create visual loading bars
 import c_data  # Us cities list
 
 #                                   Config
