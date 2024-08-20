@@ -1,5 +1,5 @@
 # Ant Colony Optimization Algorithm 
-This project aims to create and implement the Ant Colony Optimization (ACO) algorithm to solve the Traveling Salesman Problem (TSP), an NP-hard problem. The TSP involves finding the shortest route that visits all cities in a set and returns to the starting city. As the complexity of the problem grows exponentially with the number of cities, exhaustive search methods become impractical for large-scale problems.
+This project aims to create and implement the Ant Colony Optimization (ACO) algorithm to solve the Traveling Salesman Problem (TSP), an NP-hard problem. The TSP involves finding the shortest route that visits all cities in a set and returns to the starting city. As the complexity of the problem grows exponentially with the number of cities, exhaustive search methods become impractical for large-scale problems. 
 
 # Project Overview
 
